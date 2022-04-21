@@ -1,0 +1,29 @@
+db:
+  port: 5433
+  sslmode: disable
+  host: 165.232.68.67
+  username: postgres
+  dbname: postgres
+
+http:
+  port: 80
+  MaxHeaderMegabytes: 1
+  readTimeout: 10s
+  writeTimeout: 10s
+
+grpc:
+  port: 50080
+
+grpcRA:
+  port: 58080
+  host: 165.232.68.67
+
+grpcCS:
+  port: 8091
+  host: 159.223.1.135
+
+grpsPS:
+  port: 58082
+  host: 165.232.68.67
+
+
